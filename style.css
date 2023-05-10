@@ -1,0 +1,40 @@
+body{
+ background-color: rgb(75, 157, 163);
+}
+
+#horahtml{
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    width: 500px;
+    height: 100px;
+    background-color: #f8f4f4;
+    border: 3px solid #570202;
+    padding: 10px;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 5px;
+  }
+
+#horahtml span {
+    display: inline-block;
+    min-width: 50px;
+  }
+
+.hours:after {
+    content: ":";
+  }
+
+.minutes:after {
+    content: ":";
+  }
+
+.seconds:before {
+    content: "\00a0";
+  }
+  
